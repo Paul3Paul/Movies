@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(Knight.gif);
+    color: white;
+    background-size: cover;
+    min-height: 100vh;
+}
+#btn
+{
+     border-radius: 20px;
+}
+#inp
+{
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    font-size: 16px;
+}
+#header
+{
+    display: flex;
+    gap: 30px;
+}
+#head
+{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    animation: countt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#emoji
+{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+}
+#movieslist
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+   
+
+}
+.movieCard img
+{
+   height: 200px;
+   width: 250px;
+   
+}
+.movieCard
+{
+    padding: 10px;
+    box-shadow: 4px 4px 4px white;
+}
+#foot
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+ @keyframes countt
+{
+  from{color:whitesmoke;}
+  to{color:cyan;}
+}
+#clock 
+{
+    animation: countt;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
